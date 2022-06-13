@@ -5,47 +5,37 @@
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <title>Karl Ramos's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Karl Ramos's Portfolio</title>
   </head>
   <body>
-      <section class="showcase">
-      <header>
-          <div class="toggle"></div>
-      </header>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Wonder</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="/videos/night_sky_-_31569 (Original).mp4" muted loop autoplay><</video>
 
-      <video src="/videos/night_sky_-_31569 (Original).mp4" muted loop autoplay><</video>
-
-      <div class="overlay"></div>
-
-      <div class="text">
-        <h2>Welcome to Karl's Portfolio</h2>
-        <p>I am a computer science major attending the University of Florida. 
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Welcome to Karl's Portfolio</h2>
+        <p> 
           Check out my socials and the other tabs to learn more about me. 
           I hope you enjoy your time here! 
         </p>
-      </div>
-      <ul class="social">
-        <li><a href="https://www.instagram.com/karltheram/"><img src="/images/Instagram_Glyph_Gradient copy.png"></a></li>
+      <a href="About Me.html">Learn More About Me</a>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.instagram.com/karltheram/"><img src="/images/Instagram_Glyph_Gradient copy.png"></a></li>
         <li><a href="https://www.linkedin.com/in/karl-mathew-ramos/"><img src="/images/LI-Logo (1).png"</a></li>
-    </section>
-    <div class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </div>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About Me.html">About Me and Projects</a></li>
+    </ul>
+  </div>
 
-      <script>
-          const menuToggle = document.querySelector('.toggle');
-          const showcase = document.querySelector('.showcase');
-
-          menuToggle.addEventListener('click', () => {
-            menuToggle.classList.toggle('active');
-            showcase.classList.toggle('active');
-            })
-      </script>      
+      <script src="script.js"></script>      
   </body>
 </html>
